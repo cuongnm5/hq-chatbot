@@ -10,7 +10,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Cơ sở dữ liệu: `id12561340_uetbot`
+-- Cơ sở dữ liệu: `chatbot`
 --
 
 -- --------------------------------------------------------
@@ -37,18 +37,6 @@ CREATE TABLE `users` (
   `ketnoi` bigint(25) DEFAULT NULL,
   `gioitinh` int(11) NOT NULL DEFAULT 0
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
-
---
--- Đang đổ dữ liệu cho bảng `users`
---
-
-INSERT INTO `users` (`ID`, `trangthai`, `hangcho`, `ketnoi`, `gioitinh`) VALUES
-(2208828715811317, 0, 0, NULL, 1),
-(2885307244862831, 0, 0, NULL, 2);
-
---
--- Chỉ mục cho các bảng đã đổ
---
 
 --
 -- Chỉ mục cho bảng `users`
